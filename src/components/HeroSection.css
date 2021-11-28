@@ -1,0 +1,34 @@
+video{
+    object-fit: cover;
+    width: 80%;
+    height: 90%;
+    position: relative;
+    z-index: -1;
+}
+
+.hero-container{
+    /* background: url('images/img-home.jpg') center center/cover no-repeat; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+}
+
+.hero-container  p{
+    color: white;
+    font-size: 100px;
+}
+
+.text-styles{
+    font-family: 'Style Script', cursive;
+}
+
+.text-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10%;
+    color: white;
+}
